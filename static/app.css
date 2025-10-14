@@ -1,0 +1,23 @@
+#main-navigation {
+  background-color: #222;    /* dark background (you can choose your preferred dark color) */
+}
+
+#main-navigation h1{
+    font-size: 2.5rem;
+    margin: 0;      /* often useful so that background fills full width */
+    padding: 0.5rem; /* optional, for spacing */
+}
+#main-navigation h1 a {
+  color: #fafafa;
+  text-decoration: none;   /* optional */
+}
+#main-navigation h4 a {
+  color: #fafafa;
+  text-decoration: none;   /* optional */
+}
+
+#main-navigation nav{
+    font-size: 1.5rem;
+     margin: 0;      /* often useful so that background fills full width */
+    padding: 0.5rem; /* optional, for spacing */
+}
