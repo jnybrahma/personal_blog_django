@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost","personal-blog-551e813e2d21.herokuapp.com"]
+ALLOWED_HOSTS = ["localhost","personal-blog-app-15e0524489cf.herokuapp.com"]
 
 
 # Application definition
@@ -181,6 +181,8 @@ STORAGES = {
     },
     "staticfiles": {
         "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+        #"BACKEND": "custom_storages.StaticFilesStorage",
+        
     },
 }
 
